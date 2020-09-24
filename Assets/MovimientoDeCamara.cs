@@ -15,19 +15,19 @@ public class MovimientoDeCamara : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.position += Vector3.right * Time.deltaTime;
+            transform.position += Vector3.right * Time.deltaTime * 3;
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.position += Vector3.left * Time.deltaTime;
+            transform.position += Vector3.left * Time.deltaTime * 3;
         }
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.position += Vector3.up * Time.deltaTime;
+            transform.position += Vector3.up * Time.deltaTime * 3;
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.position += Vector3.down * Time.deltaTime;
+            transform.position += Vector3.down * Time.deltaTime * 3;
         }
     }
 }
